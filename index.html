@@ -1,386 +1,191 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>darkWATERdesignz v5.5</title>
-<meta name="robots" content="index, follow">
-<meta name="keywords" content="koncepgroup, photography websites, photographers wedding websites, I love photography, photo, michael koncept jones, michael jones, koncept jones, digital artist, photo editior, photoshop editior, airbrush artist, product designer, package designer, web consultant, logo, brochure, banners, billboards, calendars, flyers, music websites, miami base designer, miami web designer, miami web studio, miami design studio, south florida design studio, south florida web studio,graphic designer, jamaican web designer, jamaican graphic designer, caribbean web designer, weddings, children, cameras, digital, photographers, orlando, florida, tampa, west palm beach, miami, wordpress, flash, flash designer, ft, lauderdale web designer, florida web designer, miami graphic artist, miami graphic studio Top, First, Choice">
-<meta name="description" content="View the work of South Florida top design Studio">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>GETTING STARTED WITH ADOBE EDGE CODE CC (PREVIEW)</title>
+        <meta name="description" content="An interactive getting started guide for Edge Code CC.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
 
-<script type="text/javascript">
+        <h1>GETTING STARTED WITH ADOBE EDGE CODE CC (PREVIEW)</h1>
+        <h2>This is your guide!</h2>
+        
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
+        
+        <p>
+            Welcome to a preview of Adobe Edge Code CC, a new lightweight code editor for the next generation of the 
+            web built on the Brackets open source project. We’re big fans of standards and want to build better 
+            tooling for JavaScript, HTML, CSS, and related open web technologies. This is our humble beginning.
+        </p>
+        
+        <!--
+            WHAT IS EDGE CODE?
+        -->
+        <p>
+            <em>Edge Code CC is a different type of editor.</em>
+            One notable difference is that this editor is written in JavaScript, HTML and CSS.
+            This means that most of you using Edge Code have the skills necessary to modify and extend the editor.
+            In fact, we use Edge Code every day to build Edge Code. It also has some unique features like Quick Edit,
+            Live Preview and others that you may not find in other editors.
+            To learn more about how to use those features, read on.
+        </p>
+        
+        
+        <h2>We're trying out a few new things</h2>
+        
+        <!--
+            THE RELATIONSHIP BETWEEN HTML, CSS AND JAVASCRIPT
+        -->
+        <h3>Quick Edit for CSS and JavaScript</h3>
+        <p>
+            No more switching between documents and losing your context. When editing HTML, use the
+            <kbd>Cmd/Ctrl + E</kbd> shortcut to open a quick inline editor that displays all the related CSS.
+            Make a tweak to your CSS, hit <kbd>ESC</kbd> and you're back to editing HTML, or just leave the
+            CSS rules open and they'll become part of your HTML editor. If you hit <kbd>ESC</kbd> outside of
+            a quick inline editor, they'll all collapse.
+        </p>
+        
+        <samp>
+            Want to see it in action? Place your cursor on the <!-- <samp> --> tag above and press
+            <kbd>Cmd/Ctrl + E</kbd>. You should see a CSS quick editor appear above, showing the CSS rule that
+            applies to it. Quick Edit works in class and id attributes as well.
+            
+            You can create new rules the same way. Click in one of the <!-- <p> --> tags above and press
+            <kbd>Cmd/Ctrl + E</kbd>. There are no rules for it right now, but you can click the New Rule
+            button to add a new rule for <!-- <p> -->.
+        </samp>
+        
+        <a href="screenshots/quick-edit.png">
+            <img alt="A screenshot showing CSS Quick Edit" src="screenshots/quick-edit.png" />
+        </a>
+        
+        <p>
+            You can use the same shortcut to edit other things as well--like functions in JavaScript,
+            colors, and animation timing functions--and we're adding more and more all the time.
+            For now inline editors cannot be nested, so you can only use Quick Edit while the cursor
+            is in a "full size" editor.
+        </p>
+        
+        <!--
+            LIVE PREVIEW
+        -->
+        <h3>Preview HTML and CSS changes live in the browser</h3>
+        <p>
+            You know that "save/reload dance" we've been doing for years? The one where you make changes in
+            your editor, hit save, switch to the browser and then refresh to finally see the result?
+            With Edge Code, you don't have to do that dance.
+        </p>
+        <p>
+            Edge Code will open a <em>live connection</em> to your local browser and push HTML and CSS updates as you
+            type! You might already be doing something like this today with browser-based tools, but with Edge Code
+            there is no need to copy and paste the final CSS back into the editor. Your code runs in the
+            browser, but lives in your editor!
+        </p>
+        
+        <h3>Live Highlight HTML elements and CSS rules</h3>
+        <p>
+            Edge Code makes it easy to see how your changes in HTML and CSS will affect the page. When your cursor
+            is on a CSS rule, Edge Code will highlight all affected elements in the browser. Similarly, when editing
+            an HTML file, Edge Code will highlight the corresponding HTML elements in the browser.
+        </p>
+        
+        <samp>
+            If you have Google Chrome installed, you can try this out yourself. Click on the lightning bolt 
+            icon in the top right corner of your Edge Code window or hit <kbd>Cmd/Ctrl + Alt + P</kbd>. When
+            Live Preview is enabled on an HTML document, all linked CSS documents can be edited in real-time.
+            The icon will change from gray to gold when Edge Code CC establishes a connection to your browser.
+            
+            Now, place your cursor on the <!-- <img> --> tag above. Notice the blue highlight that appears
+            around the image in Chrome. Next, use <kbd>Cmd/Ctrl + E</kbd> to open up the defined CSS rules.
+            Try changing the size of the border from 10px to 20px or change the background
+            color from "transparent" to "hotpink". If you have Edge Code and your browser running side-by-side, you
+            will see your changes instantly reflected in your browser. Cool, right?
+        </samp>
+                
+        <p class="note">
+            Today, Edge Code only supports Live Preview for HTML and CSS. However, in the current version, changes to
+            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
+            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
+            to bring this functionality to all major browsers in the future.
+        </p>
+                
+        <h3>Quick View</h3>
+        <p>
+            For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Edge Code makes
+            it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
+            color value or gradient and Edge Code will display a preview of that color/gradient automatically. The
+            same goes for images simply hover over the image link in the Edge Code editor and it will display a
+            thumbnail preview of that image.
+        </p>
+        
+        <samp>
+            To try out Quick View for yourself, place your cursor on the <!-- <body> --> tag at the top of this
+            document and press <kbd>Cmd/Ctrl + E</kbd> to open a CSS quick editor. Now simply hover over any of the
+            color values within the CSS. You can also see it in action on gradients by opening a CSS quick editor
+            on the <!-- <html> --> tag and hovering over any of the background image values. To try out the image
+            preview, place your cursor over the screenshot image included earlier in this document.
+        </samp>
+        
+        <!--
+            INTEGRATION WITH CREATIVE CLOUD TOOLS AND SERVICES
+        -->
+        <h2>Edge Code CC integrates with other Creative Cloud Tools and Services</h2>
+        <h3>Edge Web Fonts</h3>
+        <p>
+            Edge Code brings some of the Creative Cloud Tools and Services right to your code editor. This preview 
+            integrates with <a href="https://creative.adobe.com/products/webfonts">Edge Web Fonts</a>, a suite of 
+            free web fonts made possible by contributions from Adobe, Google, and designers around the world. To use
+            Edge Web Fonts, open a CSS file, within a CSS rule type <code>font-family:</code> and in the drop-down 
+            select "Browse Web Fonts...", then select the font you want to use. Once you're done, click the <span 
+            class="webfonts-icon" title="Edge Web Fonts"></span> icon in the upper right and copy/paste that script
+            tag into your HTML document.
+        </p>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5475548-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- favicon -->
- <link rel="icon" href="http://konceptgroup.net/favicon4.ico" type="image/x-icon" />
-
-<!--Load Stylesheet-->
-<link rel="stylesheet" type="text/css" media="screen" href="css/default.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/color.css" id="colorswitch">
-<link rel="stylesheet" type="text/css" media="screen" href="css/fonts/PTSans/stylesheet.css">
-
-<!--[if lte IE 8]>
-  <link rel="stylesheet" href="css/ie8.css" />
-<![endif]-->
-
-<!--Load Scripts-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
-
-<script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/twitter.js"></script>
-<script type="text/javascript" src="js/jqueryslidemenu.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/jflickrfeed.js"></script>
-<script type="text/javascript" src="js/jquery.anythingslider.js"></script>
-<script type="text/javascript" src="js/jquery.anythingslider.fx.js"></script>
-<script type="text/javascript" src="js/touchable.js"></script>
-<script type="text/javascript" src="js/hoverable.js"></script>
-
-<script>
-		$(function () {
-		$('#slider').anythingSlider({
-			height			: '415',
-			delay           : 5000,
-			animationTime   : 400,
-			expand			: true,
-			startStopped    : false,
-			resizeContents  : true,
-			pauseOnHover    : true,
-			buildArrows     : false,
-			autoPlayLocked  : true, // If true, user changing slides will not stop the slideshow
-			navigationFormatter : function(i, panel){
-				// Add Preview Items here
-				return '<img src="img/assets/slider-item-' + ['1', '2', '3', '4','5','6'][i - 1] + '-thumb.jpg">';
-	   	    }
-			
-		}).anythingSliderFx({
-		   '.slider-caption-top'    : [ 'caption-Top', '300px', '400', 'easeOutExpo' ],
-		   '.slider-caption-left'    : [ 'caption-Left', '300px', '400', 'easeInQuad' ],
-		   '.slider-caption-right'    : [ 'caption-Right', '300px', '400', 'easeInQuad' ],
-		   '.slider-caption-bottom'    : [ 'caption-Bottom', '300px', '400', 'easeOutExpo' ]
-		});
-		$(".thumbNav").hide();
-		//Slider Controls - external
-		$('#slider-wrapper').hover(function() {
-			$(".slideforward").stop(true, true).fadeIn();
-			$(".slidebackward").stop(true, true).fadeIn();
-			$(".thumbNav").stop(true, true).fadeIn();
-						
-		}, function() { 
-			$(".slideforward").fadeOut();
-			$(".slidebackward").fadeOut();
-			
-			$(".thumbNav").fadeOut();
-					
-		});
-							
-		$(".slideforward").click(function(){
-			$('#slider').data('AnythingSlider').goForward();  
-		});
-		 
-		$(".slidebackward").click(function(){    
-			$('#slider').data('AnythingSlider').goBack();
-		}); 
-});	
 	
-</script>
-
-</head>
-
-<body>
-
-<!--to top button-->
-<div id="toTop">&uarr;</div>
-<!--end to top button-->
-		
-        <!--start topbar-->
-        <div id="top" class="fluid">
-        	<div class="container_12">
-            	<div class="grid_12">
-        			<ul class="social">
-                		<li><a href="https://www.facebook.com/dwdstudio"><img src="img/facebook_icon.png" alt="" width="25" height="25"></a></li>
-                		<li><a href="http://twitter.com/#!/darkwaterdesign"><img src="img/twitter_icon.png" alt="" width="25" height="25"></a></li>
-                		<li><a href="http://www.linkedin.com/pub/michael-jones/1b/881/15a"><img src="img/linkedin_icon.png" alt="" width="25" height="25"></a></li>
-                        <li><a href="http://pinterest.com/darkwaterdesign"><img src="img/pinterest-icon.png" alt="" width="25" height="25"></a></li>
-                        <li><a href="https://plus.google.com/b/100082898998566701358/100082898998566701358/posts"><img src="img/google-plus-icon.png" alt="" width="25" height="25"></a></li>
-        			</ul>
-        		</div>
-            </div>
-        </div>  
-        <!--end top-bar-->
+        <h3>Edge Inspect CC</h3>
+        <p>
+            You can also preview your content directly on devices with <a href="https://creative.adobe.com/products/inspect">
+            Edge Inspect</a>. To preview with Inspect make sure you've installed the Edge Inspect application and 
+            then click the <span class="edge-inspect-icon" title="Edge Inspect CC"></span> icon in the upper right. 
+            Turn synchronized browsing on, run Inspect on your device, connect it to Edge Code, and you'll see the 
+            contents of your HTML/JS/CSS running directly on the device. Any time you make a change and save, the 
+            device will automatically refresh to show the updated content.
+        </p>
         
-        <!--start header-->
-    	<div id="header" class="fluid">         
-        	<div class="container_12 clearfix">
-            	<!--start logo-->
-				<div id="logo" class="grid_3"><a href="index.html"><h1><img src="img/logo_dark.png" alt="" width="331" height="80"></h1></a></div>
-				<!--end logo-->
-                 	
-                <!--start navi-->	         
-            	<div id="navi" class="grid_9 omega">
-
-                	<div id="strangemenu" class="clearfix">
-                     	<ul>
-                       		<li><a href="index.html" class="active">Home</a></li>                          
-                             <li><a href="#">About US</a>
-                            	<ul>
-                                	<li><a href="about_us.html">About Us</a><li>
-                                    <li><a href="team.html">The Team</a></li>
-                                    <li><a href="service.html">Our Service</a></li>
-                               	</ul>                           
-                            </li>
-                        	
-                            <li><a href="#">Our Work</a>
-                            	<ul>
-                                    <li><a href="print_media.html">Print Media</a></li>
-                                    <li><a href="photography.html">Photography</a></li>
-                                    <li><a href="web_design.html">Web Design</a></li>
-                                </ul>
-                            </li>                       		
-                        	<li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>   
-                <!--end navi-->                     
-        	</div>    	
-		</div>
-		<!--end header-->  
-
-		<div class="clear"></div>
-
-					<!--start slider -->
-                    <div id="slider-wrapper" class="fluid">
-                    	<!--start slider images-->
-                    	<ul id="slider">                                   		
-                            <li>
-								<div class="slider-item item_1">
-								<!--start slider 1 caption -->
-								<div class="slider-caption-left caption-content">
-									<p>
-									</p>
-								</div>
-								<!--end slider 1 caption -->
-								</div>
-							</li>                 
-                    		<li>
-							<div class="slider-item item_2">
-								<!--start slider 2 caption -->
-								<div class="slider-caption-bottom caption-content">
-									<p>
-									</p>
-								</div>
-								<!--end slider 2 caption -->
-							</div>
-							</li>
-                    		<li>
-							<div class="slider-item item_3">
-								<!--start slider 3 caption -->
-								<div class="slider-caption-top caption-content">
-									<p>
-									</p>
-								</div>
-								<!--end slider 3 caption -->
-							</div>
-							</li>
-                            <li>
-							<div class="slider-item item_4">
-							<!--start slider 4 caption -->
-								<div class="slider-caption-right caption-content">
-									<p>
-									</p>
-								</div>
-							<!--end slider 4 caption -->
-							</div>
-							</li>
-                            <li>
-                            <div class="slider-item item_5">
-							<!--start slider 5 caption -->
-								<div class="slider-caption-right caption-content">
-									<p>
-                                        </p>
-								</div>
-							<!--end slider 5 caption -->
-                            </div>
-							</li>
-                            <li>
-                            <div class="slider-item item_6">
-							<!--start slider 6 caption -->
-								<div class="slider-caption-right caption-content">
-									<p>
-                                        </p>
-								</div>
-							<!--end slider 6 caption -->
-                           </div>
-							</li>
-                    	</ul>
-                        <!--end slider images-->
-                    
-                    <!--slider navigation-->    
-                    <div class="prevButton slidebackward"></div>
-                    <div class="nextButton slideforward"></div>
-                    <div class="pauseButton"></div>
-                    <!--end slider navigation-->                
-                    </div>                   
-                    <!-- end slider -->
-
-<div class="clear"></div>
-
-		<!--welcome message-->
-        <div id="teaser" class="fluid">
-            <div class="container_12">
-            	<div class="grid_12">
-            	<h3 class="big c"><span class="theme_color">A design studio perpetual in motion and global in our perspectives.</span></h3>
-               	</div>
-			</div>
-		</div>
-		<!--end welcome message-->
-         
-<div class="clear"></div>
-
-		<!--start content--> 
-        <div id="container" class="fluid">
-        <div class="container_12 clearfix">
+        <h3>Kuler</h3>
+        <p>
+            If you've saved a favorite theme or created one in <a href="https://kuler.adobe.com/create/color-wheel/">Kuler</a>
+            then when you use the inline color selector (Command/Ctrl+E on a color) you'll see a list of those themes next 
+            to the color palette. Clicking on one of the colors in the theme will change the color in your code to that color.
+        </p>
         
-                <!--service grid-->               
-                <div class="grid_4 service"> 
-                	<img class="service_icon" src="img/icons/why_icon.png" alt="our service" width="66" height="78">
-     				<div class="service">
-                		<h4>Our Service</h4>                  
-                		<div class="hover">
-                		<p style="text-align: justify;">With crystal-clear vision, with only our clients objectives at stake. We identify and offer the best solution for the creative needs. With our dynamic team in place
-                        we aim to be creative, innovative and imagainative </p>
-                		<a href="service.html" class="button">learn more</a>
-                        </div>               
-                    </div>         
-                </div>
-                <!--end service grid-->
-                
-                
-                <!--service grid-->
-                <div class="grid_4 service">  
-                	<img class="service_icon" src="img/icons/blog_icon.png" alt="who we are" width="66" height="71">
-                	<div class="service">
-                		<h4>Who We Are</h4>                  
-                		<div class="hover">
-                		<p style="text-align: justify;">A dynamic team, individuals with varying capabilities ranging from highly qualified graphics and web designers, photographers, copy writers, highly competent marketing and communication specialists.</p>
-                		<a href="team.html" class="button">meet the team</a>
-                        </div>
-                    </div>                       
-                </div>
-                <!--end service grid-->
-                
-                
-                <!--service grid-->
-                <div class="grid_4 service"> 
-                	<img class="service_icon" src="img/icons/work_icon.png" alt="see our work" width="66" height="81">
-                  	<div class="service">
-                		<h4>See our Work</h4>                 
-                		<div class="hover">
-                		<p style="text-align: justify;">We are dedicated to providing beautiful and innovative designs soluions to our clients. We a diverse team, we offere a wide range of services thats geared towards providing you 
-                        with the best solutions.   </p>
-                		<a href="print_media.html" class="button">take a look</a>
-                        </div>                    
-                    </div>                        
-                </div>
-                <!--end service grid-->
-                
-  <div class="hr grid_12"></div>
-             
-              <!--portfolio 1-->
-              <h4>Recent Work</h4> 
-              <div class="grid_4">
-              <p>
-        	<a class="zoom" href="img/assets/recent_work/cmt_01.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/cmt_01_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-              <!--end portfolio 1-->
-              
-              <!--portfolio 2-->
-              <div class="grid_4">
-              <p>
-        	<a class="zoom" href="img/assets/recent_work/cmt_02.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/cmt_02_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-              <!--end portfolio 2-->
-              
-              <!--portfolio 3-->
-              <div class="grid_4">
-              <p>
-        	<a class="zoom" href="img/assets/recent_work/cmt_03.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/cmt_03_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-              <!--end portfolio 3-->
-             
-              <!--portfolio 4-->
-              <div class="grid_4">
-              <p>
-        	<a class="zoom" href="img/assets/recent_work/pageant_logo.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/pageant_logo_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-               <!--end portfolio 4-->
-               
-                  <!--portfolio 5-->
-              <div class="grid_4">
-               <p>
-        	<a class="zoom" href="img/assets/recent_work/mda_logo.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/mda_logo_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-
-               <!--end portfolio 5-->
-              
-               <!--portfolio 6-->
-              <div class="grid_4">
-              <p>
-        	<a class="zoom" href="img/assets/recent_work/dhr_main_logo.jpg" rel="prettyPhoto[gallery1]"><img src="img/assets/recent_work/dhr_main_logo_thumb.jpg" width="298" alt="#"></a>
-            </p>
-        </div>
-               <!--end portfolio 6-->
-              </div>
-              </div>
-              <!--end content--> 
-              
-                <!--start twitter message-->           
-              	<div class="fluid twitter_box">               	               	
-                    <div class="container_12">
-                    	<div class="grid_12">                   
-                    		<ul class="tweet"></ul>
-                        </div>                   
-                	</div>                                                                                 
-               </div>
-                <!--end twitter message-->
-
-          	<!--start footer-->
-      
-		<!--end footer--> 
-          
-              <!--start subfooter-->
-              <div id="sub_footer" class="fluid">
-              	<div class="container_12">
-              		<div class="grid_12">                
-                  		<p>&copy; dwd v5.5  Copyright 2014 All Rights Reserved.  A Member of the Koncept Group.</p>
-                  		<ul class="social">
-                            <li><a href="https://www.facebook.com/dwdstudio">facebook</a></li>
-                            <li><a href="http://twitter.com/#!/darkwaterdesign">twitter</a></li>
-                            <li><a href="http://www.linkedin.com/pub/michael-jones/1b/881/15a">Linkedin</a></li>
-                            <li><a href="http://pinterest.com/darkwaterdesign">Pinterest</a></li>
-                            <li><a href="https://plus.google.com/u/0/b/100082898998566701358/100082898998566701358/posts">Google+</a></li>
-         				</ul>
-                	</div>
-              	</div>
-              </div>
-              <!--end subfooter--> 
-              
-</body>
+        <!--
+            LET US KNOW WHAT YOU THINK
+        -->
+        
+        <h2>Give us Feedback and Get Involved</h2>
+        <p>
+            The Edge Code CC team would love to hear your feedback and there are multiple ways to get involved.
+            You can use the Edge Code CC forum to submit new ideas or get help with any issues. Because Edge Code 
+            CC is based on Brackets you can also contribute directly to Brackets and see those contributions in Edge 
+            Code CC. In addition you can build extensions for Edge Code CC and even just help spread the world.
+        </p>
+        <ul>
+            <li><a href="http://forums.adobe.com/community/edge_code_preview">Edge Code CC Forum</a></li>
+            <li><a href="http://blogs.adobe.com/edgecode/">Edge Code CC Blog</a></li>
+            <li><a href="http://html.adobe.com/edge/code/">Edge Code CC Info</a></li>
+            <li><a href="https://twitter.com/AdobeWebCC">@AdobeWebCC on Twitter</a></li>
+            <li><a href="http://www.youtube.com/watch?v=0Xa6r8outW0">Getting Started with Edge Code CC (Preview)</a></li>
+            <!-- Brackets Resources -->
+            <li><a href="http://brackets.io">Brackets.io</a></li>
+            <li><a href="http://blog.brackets.io">Brackets Team Blog</a></li>
+            <li><a href="http://github.com/adobe/brackets">Brackets on GitHub</a></li>
+            <li><a href="https://brackets-registry.aboutweb.com">Brackets/Edge Code CC Extension Registry</a></li>
+        </ul>
+    </body>
 </html>
