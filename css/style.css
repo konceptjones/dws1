@@ -1,0 +1,18 @@
+/*	
+-------------------------------------------
+	1. BODY
+-------------------------------------------
+*/
+body {font-family: 'Roboto Condensed', sans-serif;
+    background-color: #B5E4D0;
+    width:auto;
+	float:right;
+	margin-top:10px;
+}
+     
+h1, h2 {
+    color: #222;
+    font-weight: 18px;
+    line-height: 1.1em;
+}
+
