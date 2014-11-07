@@ -4,7 +4,7 @@
 -------------------------------------------
 */
 body {font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #B5E4D0;
+    background-color: #EF8C00;
 }
 
 #center {width: 1080px;
@@ -12,8 +12,9 @@ body {font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h1 {
-    color: #222;
-    font-weight: 18px;
+    color: #ffffff;
+    opacity: 0.75;
+    font-size: 30px;
     line-height: 1.1em;
     text-align: left;
 }
@@ -45,6 +46,7 @@ li {
     width: auto;
     padding:inherit;
     margin:auto;
+    border: 2px;
     display:inline-block;
 }
 
@@ -96,11 +98,11 @@ div.img {
 
 div.img img {
     margin: 5px;
-    border: 1px solid #ffffff;
+    border: 1px solid #222;
 }
 
 div.img a:hover img {
-    border:1px solid #0000ff;
+    border:10px solid #0000ff;
 }
 
 div.desc {
