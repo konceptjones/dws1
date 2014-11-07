@@ -18,14 +18,18 @@ h1 {
     text-align: left;
 }
 
-h2 {
+h2, h3 {
     color: #EF8C00;
     text-shadow: 2px 2px #ff0000;
     font-weight: 16px;
     line-height: 0.75em;
 }
 
-
+h4 {color: #EF8C00;
+    text-shadow: 2px 2px #ff0000;
+    font-weight: 14px;
+    line-height: 0.75em;
+}
 
 /*	
 -------------------------------------------
