@@ -10,14 +10,18 @@ body {font-family: 'Roboto Condensed', sans-serif;
 	margin-top:10px;
 }
      
-h1, h2 {
+h1,{
     color: #222;
     font-weight: 18px;
     line-height: 1.1em;
 }
 
-ol {list-style-type: none;
+h2 {
+    color: #EF8C00;
+    font-weight: 16px;
+    line-height: 0.75em;
 }
+
 
 /*	
 -------------------------------------------
