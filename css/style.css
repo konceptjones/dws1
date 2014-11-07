@@ -7,7 +7,7 @@ body {font-family: 'Roboto Condensed', sans-serif;
     background-color: #B5E4D0;
 }
 
-#center {width: 960px;
+#center {width: 1080px;
     margin: auto;
 }
 
@@ -26,6 +26,7 @@ h2 {
 }
 
 
+
 /*	
 -------------------------------------------
 	2. HEADER
@@ -40,5 +41,23 @@ li {
     width: auto;
     padding:inherit;
     margin:auto;
+    display:inline-block;
+}
+
+
+/*	
+-------------------------------------------
+	3. LINKS
+-------------------------------------------
+*/
+
+
+/*	
+-------------------------------------------
+	3. IMAGES
+-------------------------------------------
+*/
+figure {padding: 10px 16px;
+        margin: inherit;
     display:inline-block;
 }
