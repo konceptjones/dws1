@@ -5,19 +5,22 @@
 */
 body {font-family: 'Roboto Condensed', sans-serif;
     background-color: #B5E4D0;
-    width:auto;
-	float:right;
-	margin-top:10px;
 }
-     
+
+#center {width: 960px;
+    margin: auto;
+}
+
 h1,{
     color: #222;
     font-weight: 18px;
     line-height: 1.1em;
+    text-align: left;
 }
 
 h2 {
     color: #EF8C00;
+    text-shadow: 2px 2px #ff0000;
     font-weight: 16px;
     line-height: 0.75em;
 }
