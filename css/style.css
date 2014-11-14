@@ -10,6 +10,9 @@ html, body
     margin: auto;
 }
 
+p {line-height: inherit;
+}
+
 
 body {font-family: 'PT Sans', sans-serif;
     background-color: #EF8C00;
@@ -22,8 +25,8 @@ body {font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
-    color: #fd4d00;
-    text-shadow: 1px 1px #fff;
+    color: #fff;
+    text-shadow: 1px 1px #000;
     font-size: 2em;
     text-align: left;
 }
@@ -59,7 +62,8 @@ h4 {color: #ffffff;
 -------------------------------------------
 */
 
-#header{background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+#header{padding: 10px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
 background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
