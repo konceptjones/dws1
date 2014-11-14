@@ -22,22 +22,22 @@ body {font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 28px;
-    line-height: 1.0em;
+    color: #fd4d00;
+    text-shadow: 1px 1px #fff;
+    font-size: 2em;
     text-align: left;
 }
 
 h2, h3 {
     color: #ffffff;
     text-shadow: 1px 1px #ff0000;
-    font-weight: 16px;
+    font-weight: 1em;
     line-height: 0.75em;
 }
 
 h4 {color: #ffffff;
     text-shadow: 1px 1px #ff0000;
-    font-weight: 14px;
+    font-weight: 0.875em;
     line-height: 0.75em;
 }
 
@@ -45,6 +45,7 @@ h4 {color: #ffffff;
 #content, #chef, #subin {float: left;
     width: 31%;
     margin: 1%;
+    padding: inherit;
 }
 
 #footer, #img {clear:both;
@@ -58,6 +59,15 @@ h4 {color: #ffffff;
 -------------------------------------------
 */
 
+#header{background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
 
 li {
     width: auto;
