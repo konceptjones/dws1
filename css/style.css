@@ -51,8 +51,16 @@ p {background-image: url ('../images/light-tile.gif'); no-repeat;
 }
 
 #chef {float: left;
-    width: 620px;
+    width: 300px;
     margin: 10px;
+}
+
+#subin {float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+#footer img {clear:left;
 }
 
 /*	
