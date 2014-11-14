@@ -23,7 +23,7 @@ body {font-family: 'PT Sans', sans-serif;
 
 h1 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.0em;
     text-align: left;
 }
@@ -42,26 +42,15 @@ h4 {color: #ffffff;
 }
 
 
-p {background-image: url ('../images/light-tile.gif'); no-repeat;
+#content, #chef, #subin {float: left;
+    width: 31%;
+    margin: 1%;
 }
 
-#content {float: left;
-    width: 300px;
-    margin: 10px;
+#footer, #img {clear:both;
 }
 
-#chef {float: left;
-    width: 300px;
-    margin: 10px;
-}
 
-#subin {float: left;
-    width: 300px;
-    margin: 10px;
-}
-
-#footer img {clear:left;
-}
 
 /*	
 -------------------------------------------
@@ -78,12 +67,12 @@ li {
     display:inline-block;
 }
 
-#nav {
-    border: 2px solid;
-    background-border: 2px;
+#nav {background-image: url('../images/simple-checker.gif'); no repeat;
+    background-position: top;
+    border-bottom-style: solid;
     color: #fff;
-    background-image: url('../images/simple-checker.gif'); no repeat;
 }
+
 /*	
 -------------------------------------------
 	3. LINKS
