@@ -27,20 +27,20 @@ body {font-family: 'PT Sans', sans-serif;
 h1 {
     color: #fff;
     text-shadow: 1px 1px #000;
-    font-size: 2em;
+    font-weight: 32px;
     text-align: left;
 }
 
 h2, h3 {
     color: #ffffff;
     text-shadow: 1px 1px #ff0000;
-    font-weight: 1em;
+    font-weight: 16px;
     line-height: 0.75em;
 }
 
 h4 {color: #ffffff;
     text-shadow: 1px 1px #ff0000;
-    font-weight: 0.875em;
+    font-size: 14px;
     line-height: 0.75em;
 }
 
@@ -69,7 +69,6 @@ background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%
 background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
 background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 
 }
 
@@ -81,7 +80,7 @@ li {
     display:inline-block;
 }
 
-#nav {background-image: url('../images/simple-checker.gif'); no repeat;
+#nav {background-image: url('../images/simple-checker.gif'); non repeat;
     background-position: top;
     border-bottom-style: solid;
     color: #fff;
@@ -117,29 +116,10 @@ a:active {
 	3. IMAGES
 -------------------------------------------
 */
-figure {padding: 10px 16px;
-        margin: inherit;
-    display:inline-block;
-}
-
-div.img {
-    margin: 2px;
-    padding: 2px;
-    height: 250px;
-    width: 250px;
-    float: left;
-    text-align: center;
-}
 
 
-div.img img {
-    margin: 5px;
-    border: 1px solid #222;
+figure {padding: 10px 10px;
+        margin: 4px;
+        display:inline-block;
 }
 
-div.desc {
-    text-align: center;
-    font-weight: normal;
-    width: 250px;
-    margin: 5px;
-}
