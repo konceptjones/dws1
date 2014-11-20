@@ -45,13 +45,50 @@ h4 {color: #ffffff;
 }
 
 
+/*	
+-------------------------------------------
+	2. CONTENT/BODY
+-------------------------------------------
+*/
+
+
 #content, #chef, #subin {float: left;
     width: 31%;
     margin: 1%;
-    padding: inherit;
 }
 
-#footer, #img {clear:both;
+section {float: left;
+          width:66%;
+         margin: 2%;
+         padding:inherit
+}
+
+
+article {float: left;
+         width: auto;
+         marging: 1%;
+         height: 450px;
+         padding: 5px;
+}
+
+aside {float: left;
+    width:25%;
+    margin:auto;
+    padding: 12px 16px;
+      
+}
+
+div.vertical-line{
+  width: 100%; /* Line width */
+  background-color: black; /* Line color */
+  height:1px; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
+
+footer, {clear:both;
 }
 
 
