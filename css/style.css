@@ -200,7 +200,7 @@ a:active {
 
 figure {padding: 10px 10px;
         margin: 4px;
-        display:inline-block;
-        :hover: 
+        display:inline-block; 
 }
 
+figure:hover{background-color: black;}
