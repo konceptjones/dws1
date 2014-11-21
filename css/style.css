@@ -114,12 +114,15 @@ th:hover {
 
 
 
-.form-horizontal {width: 940px; float:left; marging: 4px;
+.form-horizontal {width: 900px; float:left; marging: 0px 10px, 0px 10px;
                  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-                 padding:4px;border-style:solid;border-width:1px;overflow:hidden;
+                 padding:2px;border-style:solid;border-width:1px;overflow:hidden;
                  word-break:normal;border-color:#999;color:#000;background-color:#fdf2b3;
-                 border-spacing:0;border-color:#999;}
+                 border-spacing:2px;border-color:#999;}
 
+#control-group {marging: 2px;
+                padding:4px;
+}
 
 
 
