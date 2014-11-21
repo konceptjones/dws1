@@ -16,7 +16,7 @@ p {line-height: inherit;
 
 body {font-family: 'PT Sans', sans-serif;
     background-color: #EF8C00;
-    background: url('../images/khaki.gif') repeat fixed !important;
+    background: url('../images/khaki.gif') repeat;
  -webkit-font-smoothing: antialiased;
 }
 
@@ -27,14 +27,14 @@ body {font-family: 'PT Sans', sans-serif;
 h1 {
     color: #fff;
     text-shadow: 1px 1px #000;
-    font-weight: 32px;
+    font-size: 32px;
     text-align: left;
 }
 
 h2, h3 {
     color: #ffffff;
     text-shadow: 1px 1px #ff0000;
-    font-weight: 16px;
+    font-size: 16px;
     line-height: 0.75em;
 }
 
@@ -79,19 +79,18 @@ aside {float: left;
 }
 
 div.vertical-line{
-  width: 100%; /* Line width */
-  background-color: black; /* Line color */
-  height:1px; /* Override in-line if you want specific height. */
-  float: left; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
+  width: 100%; 
+  background-color: black; 
+  height:1px; 
+  float: left;  
+    
 }
 
 
 
 /*	
 -------------------------------------------
-	2. TABLE/FORMS
+	3. TABLE/FORMS
 -------------------------------------------
 */
 
@@ -132,10 +131,9 @@ th:hover {
 
 
 
-
 /*	
 -------------------------------------------
-	2. HEADER/MISC
+	4. HEADER/MISC
 -------------------------------------------
 */
 
@@ -168,7 +166,7 @@ footer, #img {clear:both;
 
 /*	
 -------------------------------------------
-	3. LINKS
+	5. LINKS
 -------------------------------------------
 */
 /* unvisited link */
@@ -193,7 +191,7 @@ a:active {
 
 /*	
 -------------------------------------------
-	3. IMAGES
+	6. IMAGES
 -------------------------------------------
 */
 
@@ -203,4 +201,4 @@ figure {padding: 10px 10px;
         display:inline-block; 
 }
 
-figure:hover{background-color: black;}
+figure:hover{background-color: #f0c505;}
