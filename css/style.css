@@ -88,10 +88,11 @@ div.vertical-line{
 }
 
 
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
-.tg td{font-family:Arial, sans-serif;font-size:20px;padding:16px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#d7e2b7;}
-.tg th{font-family:Arial, sans-serif;font-size:20px;font-weight:normal;padding:16px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#fe5d03;}
-.tg .tg-wsnc{background-color:#fffc9e}
+.tg     {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td  {font-family:Arial, sans-serif;font-size:20px;padding:16px 10px;border-style:solid;border-       
+         width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#d7e2b7;}
+.tg th   {font-family:Arial, sans-serif;font-size:20px;font-weight:normal;padding:16px 10px;border-style:solid;border-   
+          width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#fe5d03;}
 
 
 
