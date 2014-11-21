@@ -52,7 +52,7 @@ h4 {color: #ffffff;
 */
 
 
-#content, #chef, #subin {float: left;
+#content, #chef, #saia {float: left;
     width: 31%;
     margin: 1%;
 }
@@ -87,6 +87,21 @@ div.vertical-line{
     if this fits better with your design */
 }
 
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:20px;padding:16px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#d7e2b7;}
+.tg th{font-family:Arial, sans-serif;font-size:20px;font-weight:normal;padding:16px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#fe5d03;}
+.tg .tg-wsnc{background-color:#fffc9e}
+
+
+
+td:hover {
+    background-color: white;
+}
+
+th:hover {
+    background-color: black;
+}
 
 footer, #img {clear:both;
 }
